@@ -9,3 +9,14 @@ let numero2 = parseInt(prompt("Ingrese el segundo número"));
 document.write("Número 1: " + numero1);
 document.write("<br>Número 2: " + numero2);
 document.write("<br>Resultado: " + (numero1 + numero2));*/
+let numero1 = parseInt(prompt("Ingrese el primer número"));
+let numero2 = parseInt(prompt("Ingrese el segundo número"));
+
+document.write("Número 1: " + numero1);
+document.write("<br>Número 2: " + numero2);
+
+if (numero1 > numero2) {
+    document.write("<br>El número 1 es mayor");
+} else {
+    document.write("<br>El número 2 es mayor");
+}
