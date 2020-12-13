@@ -1,2 +1,2 @@
 //(ejercicio1)alert("Un mensaje");
-document.write("Hello World")
+//(ejercicio2)document.write("Hello World");
